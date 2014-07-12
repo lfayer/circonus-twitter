@@ -65,7 +65,6 @@ fs.readFile('.last_id', 'utf8', function (err,last_id) {
                 if (err) return console.log(err);
               });
             } else {
-                console.log("pushing count");
                 // just push follower count
                     request.put(
                         cconfig.data_submission_url,
@@ -81,7 +80,7 @@ fs.readFile('.last_id', 'utf8', function (err,last_id) {
                             }
                         }
                     );
-                console.log("Followers: " + status.user.followers_count);
+                // console.log("Followers: " + status.user.followers_count);
             } 
         }
         
