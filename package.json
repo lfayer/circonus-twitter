@@ -1,0 +1,18 @@
+{
+  "name": "circonus-twitter",
+  "version": "1.0.0",
+  "description": "Module to track tweets v followers with Circonus trap API",
+  "main": "circonus-tweeter.js",
+  "dependencies": {
+    "twit": "~1.1.15",
+    "request": "~2.37.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lfayer/circonus-twitter"
+  },
+  "author": "Leon Fayer",
+  "license": "BSD",
+  "readmeFilename": "README.md"
+}
